@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+.env
+.env.local
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Bundled model file (downloaded by scripts/fetch-model.js on demand)
+public/models/*.task
